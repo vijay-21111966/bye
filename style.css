@@ -1,0 +1,536 @@
+body{
+    background-color: #202125;
+    margin: 0;
+    font-family: Montserrat,Arial;
+}
+.Heading-sections a{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 520px)
+{
+    img[alt="zorotv-background"]
+    {
+        width: 100%;
+        flex-shrink: 1;
+        height: 445px;
+    }
+
+    .Heading-sections{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        left: 0px;
+    }
+    .Heading-sections a{
+        justify-content: space-around;
+        flex-grow: 1;
+        flex-shrink: 1;
+        text-align: center;
+    }
+    .zoro-logo{
+        width: 100%;
+        position: absolute;
+        top:100px ;
+    }
+    img[alt="zoro-logo-img"]
+    {
+        margin: 0 auto;
+        width: 41%;
+        display:block ;
+    }
+    img[alt="man-ki-image"]
+    {
+        height: 0px;
+        width: 0px;
+    }
+    .search-but{
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        height: 47px;
+        display: flex;
+    }
+    .form-control{
+        height: 47px;
+        margin: 0 2% 0 4%;
+        width: 80%;
+        display:block ;
+        border-radius: 30px;
+        text-align: center;
+        font-size:20px;
+    }
+    .search-ka-button-gol{
+        height: 47px;
+        width: 47px;
+        background-color: #cae962;
+        border-radius: 50%;
+        margin: 0 4% 0 0;
+        position: relative;
+    }
+    .fa-search{
+        color: black;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+
+    .top-search{
+        position: absolute;
+        width: 94%;
+        height: auto;
+        top: 280px;
+        margin-left: 4%;
+        margin-right: 4%;
+        gap: 10px;
+    }
+    .top-search p{
+        font-size:14px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 0px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .top-search .anime-name{
+        color: #aaa;
+        text-decoration: none;
+        font-size: 14px;
+        margin: auto;
+    }
+
+    .Visit-full-site{
+        width: 100%;
+        position: absolute;
+        top: 410px;
+        height: 60px;
+    }
+    .write{
+        background-color: #cae962;
+        border-radius: 30px;
+        height: 100%;
+        display: block;
+        margin: 0 4% 0 4%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .write a{
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        letter-spacing: 2px;
+        margin:auto;
+    }
+
+    .share{
+        margin-top: 20px;
+        height: 100px;
+    }
+    .share-to-friends{
+        background-color: black;
+        margin: 0 4% 0 4%;
+        height: 100px;
+        border-radius: 30px;
+        position: relative;
+    }
+    .share-para{
+        border-left: 2px solid #cae962 ;
+        position: absolute;
+        margin: 3% 0 0 20px;
+    }
+    .share-para p{
+        padding-left: 20px;
+        font-size: 17px;
+        color: #fff;
+    }
+    .Paragraph-writing{
+        margin: 40px 4%;
+    }
+    .Paragraph-writing p{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 100px;
+        letter-spacing: 1px;
+        line-height: 1.3em;
+    }
+
+    .footer{
+        text-align: center;
+        color: #fff;
+        font-weight: 400px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+
+    .footer .lnk{
+        text-decoration: none;
+        color: #aaa;
+    }
+}
+/*/////////////////////////////////////////////////////////////////////*/
+@media(min-width:521px)
+{
+    img[alt="zorotv-background"]
+    {
+        width: 100%;
+        flex-shrink: 1;
+        height: 410px;
+    }
+
+    .Heading-sections{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        left: 0px;
+    }
+    .Heading-sections a{
+        justify-content: space-around;
+        flex-grow: 1;
+        flex-shrink: 1;
+        text-align: center;
+    }
+    .zoro-logo{
+        width: 100%;
+        position: absolute;
+        top:100px ;
+    }
+    img[alt="zoro-logo-img"]
+    {
+        margin-left:9%;
+        width: auto;
+        display:block ;
+        height:60px ;
+    }
+    img[alt="man-ki-image"]
+    {
+        height: 0px;
+        width: 0px;
+    }
+    .search-but{
+        position: absolute;
+        top: 190px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+    }
+    .form-control{
+        height: 50px;
+        margin: 0 1% 0 9%;
+        width: 80%;
+        display:block ;
+        border-radius: 30px;
+        text-align: center;
+        font-size:20px;
+    }
+    .search-ka-button-gol{
+        height: 53px;
+        width: 53px;
+        background-color: #cae962;
+        border-radius: 50%;
+        margin: 0 6% 0 0;
+        position: relative;
+    }
+    .fa-search{
+        color: black;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+
+    .top-search{
+        position: absolute;
+        width: 88%;
+        height: auto;
+        top: 280px;
+        margin-left: 9%;
+        margin-right: 16%;
+        gap: 10px;
+    }
+    .top-search p{
+        font-size:14px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 0px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .top-search .anime-name{
+        color: #aaa;
+        text-decoration: none;
+        font-size: 14px;
+        margin: auto;
+    }
+
+    .Visit-full-site{
+        width: 100%;
+        position: absolute;
+        top: 410px;
+        height: 55px;
+    }
+    .write{
+        background-color: #cae962;
+        border-radius:0 0 30px 30px;
+        height: 100%;
+        display: block;
+        margin: 0 4% 0 4%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .write a{
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        letter-spacing: 2px;
+        margin:auto;
+    }
+
+    .share{
+        margin-top: 50px;
+        height: 100px;
+    }
+    .share-to-friends{
+        background-color: black;
+        margin: 0 4% 0 4%;
+        height: 100px;
+        border-radius: 30px;
+        position: relative;
+    }
+    .share-para{
+        border-left: 2px solid #cae962 ;
+        position: absolute;
+        margin: 2% 0 0 20px;
+    }
+    .share-para p{
+        padding-left: 20px;
+        font-size: 17px;
+        color: #fff;
+    }
+    .Paragraph-writing{
+        margin: 40px 4%;
+    }
+    .Paragraph-writing p{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 100px;
+        letter-spacing: 1px;
+        line-height: 1.3em;
+    }
+
+    .footer{
+        text-align: center;
+        color: #fff;
+        font-weight: 400px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+
+    .footer .lnk{
+        text-decoration: none;
+        color: #aaa;
+    }
+    
+}
+/*////////////////////////////////////////////*/
+@media(min-width:780px)
+{
+    .image-bottom-line-take{
+        width: 100%;
+        height: 470px;
+        position: relative;
+    }
+    img[alt="zorotv-background"]
+    {
+        width: 100%;
+        flex-shrink: 1;
+        height: 470px;
+    }
+    /* .man-image{
+        background-color: #cae962;
+        position: absolute;
+        width: 40%;
+        bottom: 0px;
+        left: 64%;
+    } */
+    img[alt="man-ki-image"]
+    {
+        height: auto;
+        width: 40%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .Heading-sections{
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        height: 60px;
+    }
+    .Heading-sections a{
+        display: inline-block;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 21px 0;
+        margin-left: 45px;
+    }
+    .zoro-logo{
+        margin-left: 45px;
+        width: 52%;
+        margin-top: 30px;
+    }
+    img[alt="zoro-logo-img"]
+    {
+        margin: 0;
+    }
+
+    .search-but{
+        margin-left: 45px;
+        margin-top: 30px;
+        width: 52%;
+    }
+
+    .form-control{
+        margin: 0 2% 0 0;
+        height: 45px;
+        width:90%
+    }
+
+    .search-ka-button-gol{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        margin-right:0px ;
+        margin-left: 0px;
+        position: relative;
+    }
+    .fa{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .top-search{
+        margin-left: 45px;
+        margin-top: 20px;
+        width: 52%;
+    }
+    .Visit-full-site{
+        top:470px;
+    }
+    .write{
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .share{
+        margin-top: 70px;
+        height: 80px;
+    }
+    .share-to-friends{
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        height: 80px;
+    }
+    .share-para {
+        height: 40px;
+    }
+    .share-para p{
+        margin-top: 0%;
+    }
+    .Paragraph-writing{
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
+@media(min-width:1230px)
+{
+    .image-bottom-line-take{
+        width: 100%;
+        height: 585px;
+    }
+    img[alt="zorotv-background"]
+    {
+        width: 100%;
+        height: 585px;
+    }
+    img[alt="man-ki-image"]
+    {
+        left: 50%;
+        height: 473.21px;
+        width: 600px;
+    }
+    .container{
+        max-width: 1200px!important;
+        width: 100%!important;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Heading-sections{
+        top: 55px;
+    }
+    .Heading-sections a{
+        margin-left: 25px;
+    }
+
+    .Visit-full-site{
+        max-width: 1200px!important;
+        width: 100%!important;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        top: 585px;
+        left: 0px;
+        right: 0px;
+    }
+    .search-but{
+        width: 50%;
+    }
+    .Heading-sections
+    {
+        max-width: 1200px!important;
+        width: 100%!important;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0px;
+        right: 0px;
+    }
+    .share{
+        margin-top: 80px;
+    }
+    .share-para{
+        margin-top: 17px;
+    }
+    .zoro-logo{
+        top: 180px;
+        margin-left: 20px;
+    }
+
+    .search-but{
+        top: 270px;
+        margin-left: 20px;
+        width: 41%;
+    }
+
+    .top-search{
+        top: 360px;
+        margin-left: 20px;
+        width: 38%;
+    }
+}
